@@ -23,7 +23,7 @@ export default defineConfig([
       },
     },
     rules: {
-       "no-unused-vars": ["error", { "varsIgnorePattern": "^(motion|AnimatePresence|[A-Z_]+)$" }],
+       "no-unused-vars": ["error", { "varsIgnorePattern": "^(motion|AnimatePresence|Icon[A-Z][a-zA-Z]*|Sidebar|SidebarBody|SidebarLink|Dashboard|[A-Z_]+)$" }],
     },
   },
 ])
